@@ -45,10 +45,10 @@ $(function () {
 			logo = $(".navbar .logo> img");
 		if (bodyScroll > 100) {
 			navbar.addClass("nav-scroll");
-			logo.attr("src", "../wp-content/uploads/2022/01/logo.png");
+			logo.attr("src", "./wp-content/uploads/2022/01/logo.png");
 		} else {
 			navbar.removeClass("nav-scroll");
-			logo.attr("src", "../wp-content/uploads/2022/01/logo.png");
+			logo.attr("src", "./wp-content/uploads/2022/01/logo.png");
 		}
 	});
 
