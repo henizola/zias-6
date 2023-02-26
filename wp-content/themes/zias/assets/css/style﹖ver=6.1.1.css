@@ -1605,6 +1605,11 @@ float: left;
     opacity: 1;
     background-color: rgb(109, 110, 112);
 }
+.item:hover img {
+  filter: invert(100%);
+}
+
+
 .services .item:hover h5,
 .services .item:hover p,
 .services .item:hover h5 
@@ -3184,5 +3189,12 @@ float: left;
     }
 }
 
+
+@media screen and (min-width:600px) {
+    .padded-top{
+        padding-top:150px;
+        padding-bottom:250px;
+    }
+}
 
 /* css bounce effect end */
