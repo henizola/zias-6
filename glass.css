@@ -15,7 +15,7 @@
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.2);
     border-radius: 15px;
-    background: rgb(109 110 112);
+    background: rgb(32 32 32);
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@
   }
   .holder .card .content h3{
     font-size: 1.8em;
-    color: #fff;
+    color: rgb(188, 184, 50);
     font-weight: 700;
     z-index: 1;
   }
